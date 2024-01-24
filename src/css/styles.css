@@ -7,11 +7,11 @@
 }
 
 body {
-    background-image: url(../img/background-img.jpeg);
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
     height: 90vh;
+    background-color: rgb(70, 43, 224);
 }
 
 button {
@@ -57,6 +57,7 @@ input , select {
     background-color: rgb(255, 247, 233);
     padding: 1.5rem;
     border-radius: 5px;
+    border: 5px solid rgb(2, 2, 54);
 }
 .todo-container header {
     text-align: center;
@@ -88,7 +89,7 @@ input , select {
 
 #toolbar {
     padding: 1rem;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid rgb(2, 2, 54);
     display: flex;
 }
 #toolbar h4 {
